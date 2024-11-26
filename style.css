@@ -89,7 +89,7 @@
     text-align: center;
 }
 
-#texto {
+#h1 {
     font-size: 64px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -97,7 +97,7 @@
 }
 
 #boton1 {
-    background-color: #fbbd05;
+    background-color: rgb(251, 189, 5);
     color: black;
     border: none;
     padding: 15px 30px;
