@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 100vh;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(8px);
+    filter: blur(4px);
     z-index: -1;
 }
 
@@ -115,11 +115,23 @@
     font-weight: bold;
 }
 
-#boton1 {
+#boton {
     background-color: rgb(251, 189, 5);
     color: black;
     border: none;
     padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#enlace{
+    display: none;
+    background-color: #0e0d0d;
+    color: rgb(187, 187, 187);
+    border: none;
+    padding: 15px 20px;
+    margin: 20px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
