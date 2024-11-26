@@ -99,15 +99,27 @@
 
 #h1{
     text-shadow: rgba(255, 0, 0, 0.664) 5px 4px 3px; 
-    transition: all 5s;
 }
 
-#h1:hover{
-    transform: scale(10px);
-}
 
 #h2{
     display: none;
+}
+
+#enlace{
+    display: none;
+    background-color: #0e0d0d;
+    color: rgb(187, 187, 187);
+    border: none;
+    padding: 15px 20px;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+a {
+    text-decoration: none;
 }
 
 
