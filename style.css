@@ -89,14 +89,14 @@
     text-align: center;
 }
 
-.title {
+#texto {
     font-size: 64px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
 }
 
-.start-button {
+#boton1 {
     background-color: #fbbd05;
     color: black;
     border: none;
@@ -105,8 +105,4 @@
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.start-button:hover {
-    background-color: #e0a804;
 }
