@@ -133,12 +133,12 @@
     }
 
     #h1 {
-        font-size: 40px; /* Smaller text size on mobile */
+        font-size: 24px; /* Smaller text size on mobile */
         margin-bottom: 10px;
     }
 
     #h2 {
-        font-size: 28px; /* Smaller text size on mobile */
+        font-size: 18px; /* Smaller text size on mobile */
     }
 
     #boton {
