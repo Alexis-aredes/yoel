@@ -1,42 +1,23 @@
-let boton = document.getElementById("boton1")
-boton.addEventListener("click",() => {
-    if (boton.style.backgroundColor === "rgb(224, 168, 4)") {
-        boton.style.backgroundColor = "red";
-        boton.innerText = "dea q le pasaba"
-    } else {
-        boton.style.backgroundColor = "rgb(224, 168, 4)";
-        boton.innerText = "Dale Click Aquí"
-    }
-    if (boton.style.transform === "scale(1.2)") {
-        boton.style.transform = "scale(1)"; // Tamaño original
-    } else {
-        boton.style.transform = "scale(1.2)"; // Escala a 1.2 veces su tamaño
-    }
-    if (texto) {
-        texto.innerText = "Feliz Cumple Sorete"
-        
-    } else {
-        texto.innerText = "FREE FIRE"
-    }
-})
+let h1 = document.getElementById("h1");
+let boton = document.getElementById("boton1");
 
-boton.addEventListener("mouseenter",() =>{
-    boton.style.backgroundColor = "rgb(224, 168, 4)"
-    boton.style.transform = "scale"
-    boton.style.transition = "transform 0.3s ease"
-    
-})
-boton.addEventListener("mouseleave",() =>{
-    boton.style.backgroundColor = "rgb(251, 189, 5)";
-    
-})
-let texto = document.getElementById ("texto")
+// Inicializamos el h1 con opacity 0
+h1.style.opacity = "0";
+h1.style.transition = "opacity 1.5s ease"; // Transición para el h1
 
-if (texto) {
-    texto.innerText
-    
-} else {
-    
-}
+boton.addEventListener("click", () => {
+    if (h1.style.opacity == "0") {
+        h1.style.opacity = "1"; // Mostrar el h1 con opacity
+        boton.style.backgroundColor = "rgb(251, 189, 5)";
+        boton.style.transform = "scale(1.2)";
+        boton.style.transition = "transform 1.5s ease"; // Transición para el botón
+    } else {
+        h1.style.opacity = "0"; // Ocultar el h1 con opacity
+        boton.style.backgroundColor = "rgb(251, 189, 5)";
+        boton.style.transform = "scale(1)";
+    }
+});
+
+
 
 
