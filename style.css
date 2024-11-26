@@ -138,6 +138,43 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 20px;
+    }
+
+    #h1 {
+        font-size: 40px; /* Smaller text size on mobile */
+        margin-bottom: 10px;
+    }
+
+    #h2 {
+        font-size: 28px; /* Smaller text size on mobile */
+    }
+
+    #boton {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    #enlace {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    /* Adjust video size */
+    .background-video {
+        height: auto;
+        width: 100%;
+        filter: blur(3px);
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
 @media (max-width: 480px) {
     #h1 {
         font-size: 32px; /* Even smaller text size for very small screens */
